@@ -172,10 +172,13 @@ img {
 /*===== HOME =====*/
 .home {
   position: relative;
-  row-gap: 5rem;
-  padding: 4rem 0 5rem;
+  row-gap: 10rem;
+  gap: 20px;
+  padding: 4rem  5rem;
   height: 100vh;
   max-height: 100vh;
+  width: 100%;
+  margin: 5px 20px;
 }
 .home__data {
   align-self: center;
@@ -219,10 +222,10 @@ img {
 }
 .home__img {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -125px;
+  bottom: -10px;
   height: auto;
-  width: 100px;
+  width: 80px;
   border: 0.2rem solid var(--text-color);
   border-radius: 50%;
   overflow: hidden;
