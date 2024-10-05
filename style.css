@@ -282,13 +282,19 @@ img {
   color: var(--text-color);
   background: var(--secondary-bg-color);
   border-radius: 2rem;
-  padding: 3rem;
+  padding: 5rem;
+  margin:5px 20px;
   box-shadow: 0 20px 50px var(--main-color);
 }
 .about__subtitle {
   margin-bottom: var(--mb-2);
+  font-size: 45px;
 }
-.about__img {
+.about__text{
+  font-size: 20px;
+  font-weight:normal;
+}
+/* .about__img {
   justify-self: center;
   border-radius: 50%;
   overflow: hidden;
@@ -298,7 +304,7 @@ img {
 .about__img img {
   width: 200px;
   border-radius: 0.5rem;
-}
+} */
 
 /* ===== SKILLS =====*/
 .skills__container {
